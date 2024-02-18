@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.kafka.controller;
 
-import com.example.demo.entity.User;
-import com.example.demo.kafka.KafkaJsonProducer;
+import com.example.kafka.entity.User;
+import com.example.kafka.kafka.KafkaJsonProducer;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;

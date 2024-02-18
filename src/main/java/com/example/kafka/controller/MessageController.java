@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.kafka.controller;
 
 
-import com.example.demo.kafka.KafkaProducer;
+import com.example.kafka.kafka.KafkaProducer;
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;
 import lombok.extern.slf4j.Slf4j;
@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 @RequestMapping("/admin")
 public class MessageController {
-    com.example.demo.kafka.KafkaProducer kafkaProducer;
+    KafkaProducer kafkaProducer;
 
     @Autowired
     public MessageController(KafkaProducer kafkaProducer) {

@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.example.kafka.config;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
@@ -9,7 +9,7 @@ public class KafkaConfig {
 
     @Bean
     public NewTopic messageTopic() {
-        return new NewTopic("kafka", 10, (short) 10);
+        return new NewTopic("kafka", 10, (short) 3);
     }
 
 

@@ -1,4 +1,4 @@
-package com.example.demo.kafka;
+package com.example.kafka.kafka;
 
 import lombok.AccessLevel;
 import lombok.experimental.FieldDefaults;

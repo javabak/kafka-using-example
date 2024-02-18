@@ -1,6 +1,6 @@
-package com.example.demo.kafka;
+package com.example.kafka.kafka;
 
-import com.example.demo.entity.User;
+import com.example.kafka.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;

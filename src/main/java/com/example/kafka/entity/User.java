@@ -1,4 +1,4 @@
-package com.example.demo.entity;
+package com.example.kafka.entity;
 
 import lombok.*;
 import lombok.experimental.FieldDefaults;
